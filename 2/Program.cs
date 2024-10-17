@@ -106,7 +106,7 @@ for (int i = 0; i < parkingSpots.Length; i++)
 removeVehicle();
 void removeVehicle()
 {
-    string regNumber = "CAR111";
+    string regNumber = "SOV111";
 
     Console.Write("Enter the spot number of the vehicle to remove:");
     string spotNumber = Console.ReadLine();
@@ -122,7 +122,7 @@ void removeVehicle()
         {
             parkingSpots[i].Remove(regNumber);
             Console.WriteLine("The vehicle is removed from the parkingspots");
-            break;
+        
         }
 
     }
